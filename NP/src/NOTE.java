@@ -6,29 +6,7 @@ import java.awt.event.*;
 
 public class NOTE extends JFrame implements ActionListener, WindowListener {
 	File fnameContainer;
-	JTextArea jta = new JTextArea();
-
-	public void windowDeactivated(WindowEvent e) {
-	}
-
-	public void windowActivated(WindowEvent e) {
-	}
-
-	public void windowDeiconified(WindowEvent e) {
-	}
-
-	public void windowIconified(WindowEvent e) {
-	}
-
-	public void windowClosed(WindowEvent e) {
-	}
-
-	public void windowClosing(WindowEvent e) {
-		Exiting();
-	}
-
-	public void windowOpened(WindowEvent e) {
-	}
+	JTextArea jta = new JTextArea();
 
 	public void Exiting() {
 		System.exit(0);
